@@ -15,5 +15,14 @@
     Store your answer in d
     print your final answer
     */
+
+    d=0.0;
+
+    for (int i = 0; i < 5; i++) {
+      d += a[i] * b[i];
+    } 
+
+    printf("Dot product d = %.1f\n", d);
+    
     return 0;
  }

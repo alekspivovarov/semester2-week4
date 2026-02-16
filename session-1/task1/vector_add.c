@@ -15,5 +15,14 @@
     Store your answer in array c
     Print your final answer
     */
+   for (int i = 0; i < 5; i++) {
+      c[i] = a[i] + b[i];
+   }
+
+   printf("Vector sum:\n");
+   for (int i = 0; i < 5; i++) {
+      printf("c[%d] = %.1f + %.1f = %.1f\n", i, a[i], b[i], c[i]);
+   }
+
     return 0;
  }
